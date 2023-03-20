@@ -151,7 +151,7 @@ while True:
         continue
 
     # Obtenção do preço atual
-    preco_atual = API.get_best_candles("USDJPY", 60)[-1]["close"]
+    preco_atual = API.get_best_candles("WDOJ23", 60)[-1]["close"]
 
     # Checagem da primeira vez que o preço tocou o preço de referência
     if not touched:
