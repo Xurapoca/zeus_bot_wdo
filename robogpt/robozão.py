@@ -223,9 +223,9 @@ take_profit_venda = 0
 
 
 
-
 # Definindo os níveis de suporte e resistência
 # com base nos preços dos últimos 20 ajustes diários
+
 
 prices = api.get_adjusted_close_prices('MINIDOLAR', 21)[:-1]
 
