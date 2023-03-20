@@ -128,7 +128,7 @@ gain = 5
 sl_vwap = [4, 5, 7]
 
 # Gain em pontos para a vwap band
-gain_vwap = [5, 10, 21]
+gain_vwap = [5, 10, 30]
 
 # Definição de variáveis para operação
 compra = False
@@ -183,13 +183,13 @@ while True:
 
     # Execução da operação de compra ou venda
     if compra:
-        if API.buy(3, "USDJPY", "call", 1):
+        if API.buy(3, "WDOJ23", "call", 1):
             print("Compra executada")
             preco_referencia_invertido = preco_referencia
             preco_referencia = preco_atual
             touched = False
     elif venda:
-        if API.buy(3, "USDJPY", "put", 1):
+        if API.buy(3, "WDOJ23", "put", 1):
             print("Venda executada")
             preco_referencia_invertido = preco_referencia
             preco_referencia = preco_atual
@@ -248,5 +248,5 @@ for i in range(1, len(prices[0])):
         resistances.append(np.nan)
         supports.append(np.nan)
 
-supports = supports[-15:]
-resistances = resistances[-15:]
+supports = supports[-20:]
+resistances = resistances[-20:]
