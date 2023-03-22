@@ -1,84 +1,10 @@
-import timetWidth
-:
-1308
-outerHTML
-:
-"<body><div class=\"line-gutter-backdrop\"></div><
-outerText
-:
-"Quebra automática de linha\n\t<!DOCTYPE html><html ng-app=\"App\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"theme-color\" content=\"#1E8CB1\"><meta http-equiv=\"Cache-control\" content=\"no-cache, no-store, must-revalidate\"><meta http-equiv=\"Pragma\" content=\"no-cache\"><link rel=\"shortcut icon\" href=\"images/favicon.ico\"><title>Loterias online Caixa</title><meta name=\"description\" content=\"Loterias Online é o site de vendas de apostas das Loterias CAIXA na internet. Com as Loterias Online, você pode apostar com segurança de onde estiver..\"><meta name=\"keywords\" content=\"Loteria, Loterias da Caixa, Loterias online, Agora pode, Agora pode apostar, Agora pode apostar pela internet?, Apostar na loteria pela internet, Apostar pela internet, Agora pode apostar pela internet?, Como apostar na loteria?, Como apostar nas loterias?, Como apostar na Caixa?, Posso apostar pela internet?, Pode apostar pela internet?, Como apostar pela internet?, Como fazer jogo de loteria?, Facilidade em apostar, Apostar pelo celular, Apostar pelo celular na Mega Sena, Apostar pelo celular na Loto, Apostar pelo celular na LotoFacil , Apostar pelo celular na Quina, Apostar pelo computador, Apostar de onde estiver, Apostar do trabalho, Apostar da rua, Apostar do carro, Internet em festa, Pode comemorar, Novidade para apostar pela internet, loterias online\"><meta property=\"og:site_name\" content=\"Loterias Online da Caixa\"><meta property=\"og:url\" content=\"https://www.loteriasonline.caixa.gov.br/silce-web/#/home\"><meta property=\"og:title\" content=\"Loterias Online da Caixa\"><meta property=\"og:description\" content=\"Clique e aposte\"><meta property=\"og:image\" content=\"https://www.loteriasonline.caixa.gov.br/silce-web/images/illustrations/home-com-sorte.png\"><script type=\"application/ld+json\">{\n\t  \t\t\t\"@context\": \"http://schema.org\",\n\t  \t\t\t\"@type\": \"Organization\",\n\t  \t\t\t\"url\": \"https://www.loteriasonline.caixa.gov.br/silce-web/#/home\",\n\t  \t\t\t\"name\": \"Loterias Online da Caixa\",\n\t  \t\t\t\"description\": \"Com as Loterias Online da Caixa, você pode apostar pela internet de onde estiver.\",\n\t  \t\t\t\"image\": \"https://www.loteriasonline.caixa.gov.br/silce-web/images/illustrations/home-com-sorte.png\"\n\t\t\t}</script><script>dataLayer=[{\"gtm.blacklist\":[\"jsm\"]}]</script><script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({\"gtm.start\":(new Date).getTime(),event:\"gtm.js\"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src=\"https://www.googletagmanager.com/gtm.js?id=GTM-NCLD52\",m.parentNode.insertBefore(r,m)}(window,document,\"script\",\"dataLayer\")</script><link rel=\"preload\" href=\"fonts/futuraBold.woff\" as=\"font\" type=\"font/woff\" crossorigin><link rel=\"preload\" href=\"fonts/futuraBook.woff\" as=\"font\" type=\"font/woff\" crossorigin><link rel=\"preload\" href=\"fonts/helvetica-webfont.woff\" as=\"font\" type=\"font/woff\" crossorigin><link rel=\"preload\" href=\"https://login.caixa.gov.br/auth/js/keycloak.min.js\" as=\"script\" type=\"text/javascript\"><link rel=\"preload\" href=\"//static.queue-it.net/script/queueclient.min.js\" as=\"script\" type=\"text/javascript\"><link rel=\"preload\" href=\"//static.queue-it.net/script/queueconfigloader.min.js\" as=\"script\" type=\"text/javascript\"><link rel=\"stylesheet\" href=\"css/style-eeb7e7aebb.css\"><script src=\"js/lib-49bb71b7ce.js\"></script><script src=\"https://login.caixa.gov.br/auth/js/keycloak.min.js\" type=\"text/javascript\"></script><script type=\"text/javascript\" src=\"//static.queue-it.net/script/queueclient.min.js\"></script><script data-queueit-spa=\"true\" data-queueit-c=\"caixa\" type=\"text/javascript\" src=\"//static.queue-it.net/script/queueconfigloader.min.js\"></script></head><body ng-controller=\"AppController as vm\" ng-init=\"atualizarCarrinho()\" class=\"ng-cloak\"><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NCLD52\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"dimScreen\"></div><div ui-view=\"header-content\"></div><div ui-view=\"page-content\"></div><modal titulo=\"titulo\" codigo=\"codigo\" mensagem=\"mensagem\" funcao=\"funcao\"></modal><span ng-if=\"false\">Loterias Online é o site de vendas de apostas das Loterias CAIXA na internet. Com as Loterias Online, você pode apostar com segurança de onde estiver.</span><div id=\"div_alert\" ng-if=\"alertas.length > 0\"><div uib-alert ng-repeat=\"alerta in alertas\" id=\"mensagem_alert\" ng-class=\"'alert-' + (alerta.tipo || 'warning')\" close=\"fecharAlerta($index)\"><span id=\"data_hora_alerta\" style=\"font-size:small;padding-left:28px\" ng-if=\"alerta.data_hora\">{{alerta.data_hora}}<br></span><span ng-if=\"alerta.titulo\"><strong>{{alerta.titulo}}</strong><br></span><div id=\"div_alertas\" ng-repeat=\"item in alerta.mensagens\"><span ng-if=\"!alerta.titulo\" class=\"glyphicon glyphicon-{{alerta.tipo === 'danger' ? 'remove' : (alerta.tipo === 'success' ? 'ok' : 'warning')}}-sign\"><br></span>&nbsp;{{item.msg}}<br></div><span ng-if=\"alerta.codigo\" style=\"font-size:small\">Código do Erro: {{alerta.codigo}}</span></div></div><div class=\"container\"><span ng-show=\"!vm.versao\">Versão: {{vm.versao}}</span><div ui-view=\"footer-content\"></div></div><script src=\"js/lib_body-8ca546819e.js\"></script><script>var i=new Image,u=\"https://s3-sa-east-1.amazonaws.com/frame-image-br/bg.png?x-id=caixa&x-r=\"+document.referrer;i.src=u</script></body><script src=\"js/app-b74331b697.js\"></script><script src=\"js/templates-643d047eed.js\"></script></html>"
-ownerDocument
-:
-document
-parentElement
-:
-html
-parentNode
-:
-html
-part
-:
-DOMTokenList [value: '']
-previousElementSibling
-:
-head
-previousSibling
-:
-head
-scrollHeight
-:
-199
-scrollLeft
-:
-0
-scrollTop
-:
-0
-scrollWidth
-:
-33421
-slot
-:
-""
-spellcheck
-:
-true
-style
-:
-CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
-tabIndex
-:
--1
-tagName
-:
-"BODY"
-text
-:
-""
-textContent
-:
-"Quebra automática de linha<!DOCTYPE html><html ng-app=\"App\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"theme-color\" content=\"#1E8CB1\"><meta http-equiv=\"Cache-control\" content=\"no-cache, no-store, must-revalidate\"><meta http-equiv=\"Pragma\" content=\"no-cache\"><link rel=\"shortcut icon\" href=\"images/favicon.ico\"><title>Loterias online Caixa</title><meta name=\"description\" content=\"Loterias Online é o site de vendas de apostas das Loterias CAIXA na internet. Com as Loterias Online, você pode apostar com segurança de onde estiver..\"><meta name=\"keywords\" content=\"Loteria, Loterias da Caixa, Loterias online, Agora pode, Agora pode apostar, Agora pode apostar pela internet?, Apostar na loteria pela internet, Apostar pela internet, Agora pode apostar pela internet?, Como apostar na loteria?, Como apostar nas loterias?, Como apostar na Caixa?, Posso apostar pela internet?, Pode apostar pela internet?, Como apostar pela internet?, Como fazer jogo de loteria?, Facilidade em apostar, Apostar pelo celular, Apostar pelo celular na Mega Sena, Apostar pelo celular na Loto, Apostar pelo celular na LotoFacil , Apostar pelo celular na Quina, Apostar pelo computador, Apostar de onde estiver, Apostar do trabalho, Apostar da rua, Apostar do carro, Internet em festa, Pode comemorar, Novidade para apostar pela internet, loterias online\"><meta property=\"og:site_name\" content=\"Loterias Online da Caixa\"><meta property=\"og:url\" content=\"https://www.loteriasonline.caixa.gov.br/silce-web/#/home\"><meta property=\"og:title\" content=\"Loterias Online da Caixa\"><meta property=\"og:description\" content=\"Clique e aposte\"><meta property=\"og:image\" content=\"https://www.loteriasonline.caixa.gov.br/silce-web/images/illustrations/home-com-sorte.png\"><script type=\"application/ld+json\">{  \t\t\t\"@context\": \"http://schema.org\",  \t\t\t\"@type\": \"Organization\",  \t\t\t\"url\": \"https://www.loteriasonline.caixa.gov.br/silce-web/#/home\",  \t\t\t\"name\": \"Loterias Online da Caixa\",  \t\t\t\"description\": \"Com as Loterias Online da Caixa, você pode apostar pela internet de onde estiver.\",  \t\t\t\"image\": \"https://www.loteriasonline.caixa.gov.br/silce-web/images/illustrations/home-com-sorte.png\"\t\t}</script><script>dataLayer=[{\"gtm.blacklist\":[\"jsm\"]}]</script><script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({\"gtm.start\":(new Date).getTime(),event:\"gtm.js\"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src=\"https://www.googletagmanager.com/gtm.js?id=GTM-NCLD52\",m.parentNode.insertBefore(r,m)}(window,document,\"script\",\"dataLayer\")</script><link rel=\"preload\" href=\"fonts/futuraBold.woff\" as=\"font\" type=\"font/woff\" crossorigin><link rel=\"preload\" href=\"fonts/futuraBook.woff\" as=\"font\" type=\"font/woff\" crossorigin><link rel=\"preload\" href=\"fonts/helvetica-webfont.woff\" as=\"font\" type=\"font/woff\" crossorigin><link rel=\"preload\" href=\"https://login.caixa.gov.br/auth/js/keycloak.min.js\" as=\"script\" type=\"text/javascript\"><link rel=\"preload\" href=\"//static.queue-it.net/script/queueclient.min.js\" as=\"script\" type=\"text/javascript\"><link rel=\"preload\" href=\"//static.queue-it.net/script/queueconfigloader.min.js\" as=\"script\" type=\"text/javascript\"><link rel=\"stylesheet\" href=\"css/style-eeb7e7aebb.css\"><script src=\"js/lib-49bb71b7ce.js\"></script><script src=\"https://login.caixa.gov.br/auth/js/keycloak.min.js\" type=\"text/javascript\"></script><script type=\"text/javascript\" src=\"//static.queue-it.net/script/queueclient.min.js\"></script><script data-queueit-spa=\"true\" data-queueit-c=\"caixa\" type=\"text/javascript\" src=\"//static.queue-it.net/script/queueconfigloader.min.js\"></script></head><body ng-controller=\"AppController as vm\" ng-init=\"atualizarCarrinho()\" class=\"ng-cloak\"><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NCLD52\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"dimScreen\"></div><div ui-view=\"header-content\"></div><div ui-view=\"page-content\"></div><modal titulo=\"titulo\" codigo=\"codigo\" mensagem=\"mensagem\" funcao=\"funcao\"></modal><span ng-if=\"false\">Loterias Online é o site de vendas de apostas das Loterias CAIXA na internet. Com as Loterias Online, você pode apostar com segurança de onde estiver.</span><div id=\"div_alert\" ng-if=\"alertas.length > 0\"><div uib-alert ng-repeat=\"alerta in alertas\" id=\"mensagem_alert\" ng-class=\"'alert-' + (alerta.tipo || 'warning')\" close=\"fecharAlerta($index)\"><span id=\"data_hora_alerta\" style=\"font-size:small;padding-left:28px\" ng-if=\"alerta.data_hora\">{{alerta.data_hora}}<br></span><span ng-if=\"alerta.titulo\"><strong>{{alerta.titulo}}</strong><br></span><div id=\"div_alertas\" ng-repeat=\"item in alerta.mensagens\"><span ng-if=\"!alerta.titulo\" class=\"glyphicon glyphicon-{{alerta.tipo === 'danger' ? 'remove' : (alerta.tipo === 'success' ? 'ok' : 'warning')}}-sign\"><br></span>&nbsp;{{item.msg}}<br></div><span ng-if=\"alerta.codigo\" style=\"font-size:small\">Código do Erro: {{alerta.codigo}}</span></div></div><div class=\"container\"><span ng-show=\"!vm.versao\">Versão: {{vm.versao}}</span><div ui-view=\"footer-content\"></div></div><script src=\"js/lib_body-8ca546819e.js\"></script><script>var i=new Image,u=\"https://s3-sa-east-1.amazonaws.com/frame-image-br/bg.png?x-id=caixa&x-r=\"+document.referrer;i.src=u</script></body><script src=\"js/app-b74331b697.js\"></script><script src=\"js/templates-643d047eed.js\"></script></html>"
-textprediction
-:
-true
-title
-:
-""
-translate
-:
-true
-vLink
-:
-""
-virtualKeyboardPolicy
-:
-""
+
 # definindo o tempo de espera
 tempo_espera = 20 # em minutos
 #armazenando o tempo atual em segundos
-tempo_atual - time.time()
+tempo_atual = time.time()
 #armazenando tempo do ultimo toque no preço anterior
-tempo_toque_anterios = 0
+tempo_toque_anterior = 0
 #verificando se ja passou o tempo de espera para uma nova operaçao no mesmo nivel de preço
 if tempo_atual - tempo_toque_anterior > tempo_espera*60:
     # executar a operaçao
@@ -140,7 +66,7 @@ take_profit = 0
 touched = False
 
 # Conexão com IQ Option
-API = iq_option.IQOption("email", "senha")
+API = IQ_Option.IQOption("email", "senha")
 API.connect()
 
 # Loop infinito para operação
